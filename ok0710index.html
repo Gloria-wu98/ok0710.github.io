@@ -1,0 +1,1255 @@
+{\rtf1\ansi\ansicpg950\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww12720\viewh7240\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="zh-TW">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>\uc0\u25171 \u36896 AI\u31070 \u21161 \u29702 \u65292 \u24478 NotebookLM\u38283 \u22987 </title>\
+    <!-- \uc0\u26032 \u22686  Favicon -->\
+    <link rel="icon" type="image/png" href="data:image/png;base64,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">\
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">\
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>\
+    <!-- \uc0\u20462 \u27491  Framer Motion \u30340  CDN \u36899 \u32080  -->\
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion@11/dist/framer-motion.umd.min.js"></script>\
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Mochiy+Pop+One&family=Noto+Sans+TC:wght@400;700;900&display=swap" rel="stylesheet">\
+\
+    <style>\
+        body \{\
+            background: linear-gradient(135deg, #1c3a70 0%, #4a2f6c 100%);\
+            color: #fff;\
+            font-family: 'Noto Sans TC', 'Inter', sans-serif;\
+            overflow-x: hidden;\
+            margin: 0;\
+        \}\
+\
+        .presentation-slide \{\
+            width: 100vw;\
+            min-height: 100vh;\
+            padding: 3rem 2rem;\
+            box-sizing: border-box;\
+            display: flex;\
+            flex-direction: column;\
+            justify-content: center;\
+            align-items: center;\
+            position: relative;\
+            overflow: hidden;\
+            text-align: center;\
+        \}\
+\
+        .presentation-slide > .slide-content \{\
+            position: relative;\
+            z-index: 1; /* Ensure content is above confetti canvas */\
+            max-width: 900px;\
+            width: 100%;\
+            background-color: rgba(0, 0, 0, 0.25);\
+            padding: 2.5rem;\
+            border-radius: 1.25rem;\
+            box-shadow: 0 10px 30px rgba(0,0,0,0.35);\
+        \}\
+\
+        .slide-title \{\
+            font-size: 2.8rem;\
+            font-weight: 700;\
+            margin-bottom: 1.5rem;\
+            color: #f0f0f0;\
+        \}\
+        \
+        .slide-subtitle \{\
+            font-size: 1.5rem;\
+            font-weight: 500;\
+            margin-bottom: 1rem;\
+            color: #d0d0d0;\
+        \}\
+\
+        .slide-text \{\
+            font-size: 1.1rem;\
+            line-height: 1.8;\
+            color: #c0c0c0;\
+            margin-bottom: 1rem;\
+        \}\
+        \
+        .info-card \{\
+            display: inline-block;\
+            background-color: #007bff;\
+            color: white;\
+            padding: 0.8rem 1.5rem;\
+            border-radius: 0.5rem;\
+            text-decoration: none;\
+            font-weight: 600;\
+            margin-top: 1rem;\
+            transition: background-color 0.3s ease, transform 0.2s ease;\
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);\
+        \}\
+        .info-card:hover \{\
+            background-color: #0056b3;\
+            transform: translateY(-2px);\
+        \}\
+        .info-card-purple \{\
+            background-color: #6f42c1;\
+        \}\
+        .info-card-purple:hover \{\
+            background-color: #5a32a3;\
+        \}\
+        .info-card-green \{\
+            background-color: #28a745;\
+        \}\
+        .info-card-green:hover \{\
+            background-color: #1e7e34;\
+        \}\
+         .info-card-orange \{\
+            background-color: #fd7e14; /* \uc0\u27224 \u33394  */\
+        \}\
+        .info-card-orange:hover \{\
+            background-color: #e66a00;\
+        \}\
+        .info-card-red \{\
+            background-color: #dc3545; /* \uc0\u32005 \u33394  */\
+        \}\
+        .info-card-red:hover \{\
+            background-color: #c82333;\
+        \}\
+\
+\
+        .styled-table \{\
+            width: 100%;\
+            margin-top: 1.5rem;\
+            border-collapse: collapse;\
+            background-color: rgba(255, 255, 255, 0.05);\
+            border-radius: 0.5rem;\
+            overflow: hidden;\
+        \}\
+        .styled-table th, .styled-table td \{\
+            border: 1px solid rgba(255, 255, 255, 0.2);\
+            padding: 0.75rem 1rem;\
+            text-align: left;\
+            vertical-align: top; /* \uc0\u34920 \u26684 \u20839 \u23481 \u38914 \u37096 \u23565 \u40778  */\
+        \}\
+        .styled-table th \{\
+            background-color: rgba(0, 0, 0, 0.3);\
+            font-weight: 600;\
+            color: #e0e0e0;\
+        \}\
+        .styled-table td strong \{\
+            color: #87CEFA; /* \uc0\u28129 \u34253 \u33394  */\
+            font-weight: 700;\
+        \}\
+        .styled-table ul \{\
+            list-style-type: disc;\
+            padding-left: 20px;\
+            margin: 0.5rem 0;\
+        \}\
+         .styled-table code \{\
+            background-color: rgba(255,255,255,0.1);\
+            padding: 0.2em 0.4em;\
+            border-radius: 3px;\
+            font-family: monospace;\
+        \}\
+\
+        .youtube-embed-container \{ /* Kept for other slides if any, or future use */\
+            position: relative;\
+            width: 100%;\
+            max-width: 560px;\
+            padding-bottom: 56.25%;\
+            height: 0;\
+            overflow: hidden;\
+            margin: 1.5rem auto;\
+            border-radius: 0.5rem;\
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);\
+        \}\
+        .youtube-embed-container iframe \{\
+            position: absolute;\
+            top: 0;\
+            left: 0;\
+            width: 100%;\
+            height: 100%;\
+            border: 0;\
+        \}\
+\
+        .canva-embed-container \{ \
+            position: relative;\
+            width: 100%;\
+            max-width: 800px; \
+            height: 600px; \
+            overflow: hidden;\
+            margin: 1.5rem auto;\
+            border-radius: 0.5rem;\
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);\
+            border: 2px solid rgba(255,255,255,0.1);\
+        \}\
+        .canva-embed-container iframe \{\
+            position: absolute;\
+            top: 0;\
+            left: 0;\
+            width: 100%;\
+            height: 100%;\
+            border: 0;\
+        \}\
+        \
+        #navigation-controls \{\
+            position: fixed;\
+            bottom: 20px;\
+            left: 50%;\
+            transform: translateX(-50%);\
+            z-index: 1000;\
+            padding: 0.8rem;\
+            background-color: rgba(0, 0, 0, 0.7);\
+            border-radius: 0.75rem;\
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);\
+            display: flex;\
+            gap: 0.8rem;\
+        \}\
+\
+        #navigation-controls button \{\
+            padding: 0.6rem 1.2rem;\
+            font-size: 0.9rem;\
+            font-weight: 600;\
+            color: white;\
+            border: none;\
+            border-radius: 0.5rem;\
+            cursor: pointer;\
+            transition: background-color 0.3s ease, transform 0.2s ease, opacity 0.3s ease; /* Added opacity transition */\
+            display: flex;\
+            align-items: center;\
+            gap: 0.4rem;\
+        \}\
+        \
+        #navigation-controls button:disabled \{\
+            opacity: 0.4;\
+            cursor: not-allowed;\
+            transform: none;\
+        \}\
+      \
+        #next-slide.return-to-title \{\
+            background-color: #17a2b8; \
+        \}\
+        #next-slide.return-to-title:hover:not(:disabled) \{\
+            background-color: #138496;\
+        \}\
+\
+\
+        #prev-slide \{\
+            background-color: #6f42c1;\
+        \}\
+        #prev-slide:hover:not(:disabled) \{\
+            background-color: #5a32a3;\
+            transform: translateY(-2px);\
+        \}\
+\
+        #next-slide \{ \
+            background-color: #007bff;\
+        \}\
+        #next-slide:hover:not(:disabled) \{\
+            background-color: #0056b3;\
+            transform: translateY(-2px);\
+        \}\
+\
+        /* \uc0\u19979 \u25289 \u24335 \u36984 \u21934 \u23566 \u35261  */\
+        #slide-selector-container \{\
+            position: fixed;\
+            bottom: 20px;\
+            right: 20px;\
+            z-index: 1000;\
+        \}\
+        #slide-select-dropdown \{\
+            background-color: rgba(0, 0, 0, 0.7);\
+            color: white;\
+            padding: 0.6rem 1rem;\
+            border-radius: 0.5rem;\
+            border: 1px solid rgba(255, 255, 255, 0.3);\
+            font-size: 0.9rem;\
+            font-family: 'Noto Sans TC', sans-serif;\
+            cursor: pointer;\
+            transition: background-color 0.3s ease;\
+            max-width: 200px; /* \uc0\u36991 \u20813 \u36942 \u38263  */\
+        \}\
+        #slide-select-dropdown:hover \{\
+            background-color: rgba(0, 0, 0, 0.9);\
+        \}\
+        #slide-select-dropdown option \{\
+            background-color: #333; /* \uc0\u36984 \u38917 \u32972 \u26223 \u33394  */\
+            color: white;\
+        \}\
+\
+\
+        .lecturer-info \{\
+            background-color: rgba(111, 66, 193, 0.3); \
+            padding: 0.75rem 1.25rem;\
+            border-radius: 0.5rem;\
+            display: inline-block; \
+            margin-top: 1rem;\
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);\
+        \}\
+\
+        .prominent-title \{ \
+            font-size: 3.5rem;\
+            font-weight: 900;\
+            color: #FFD700; \
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);\
+            margin-bottom: 2rem;\
+        \}\
+         .mochiy-pop-font \{\
+            font-family: 'Mochiy Pop One', 'Noto Sans TC', sans-serif;\
+        \}\
+\
+        .conclusion-highlight \{\
+            font-size: 2.2rem; \
+            font-weight: 700; \
+            color: #FF69B4; \
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);\
+            margin-top: 1.5rem;\
+            line-height: 1.5;\
+        \}\
+\
+        .thank-you-text \{\
+            font-size: 4.5rem;\
+            font-weight: 900;\
+            color: #66FF99;\
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.6);\
+            margin-bottom: 1rem;\
+        \}\
+        .thank-you-emoji-container \{\
+            display: flex;\
+            justify-content: center;\
+            align-items: center;\
+            gap: 1.5rem;\
+            margin-top: 1rem;\
+        \}\
+        .thank-you-emoji \{\
+            font-size: 4rem;\
+        \}\
+        .beating-heart-hand \{\
+            font-size: 4.5rem;\
+            display: inline-block;\
+            animation: beat 1.5s infinite ease-in-out;\
+        \}\
+\
+        @keyframes beat \{\
+            0%, 100% \{ transform: scale(1); \}\
+            10%, 30% \{ transform: scale(0.9); \}\
+            20%, 40%, 60%, 80% \{ transform: scale(1.1); \}\
+            50%, 70%, 90% \{ transform: scale(1.05); \}\
+        \}\
+\
+        #confetti-canvas \{\
+            position: absolute;\
+            top: 0;\
+            left: 0;\
+            width: 100%;\
+            height: 100%;\
+            pointer-events: none;\
+            z-index: 0;\
+        \}\
+\
+        @media (max-width: 768px) \{\
+            .presentation-slide \{ padding: 2rem 1rem; \}\
+            .slide-content \{ padding: 1.5rem; \}\
+            .slide-title \{ font-size: 2rem; \}\
+            .prominent-title \{ font-size: 2.5rem; \}\
+            .slide-subtitle \{ font-size: 1.2rem; \}\
+            .slide-text \{ font-size: 1rem; \}\
+            .info-card \{ padding: 0.7rem 1.2rem; font-size: 0.9rem; \}\
+            .styled-table th, .styled-table td \{ padding: 0.5rem; font-size: 0.8rem; \}\
+            #navigation-controls \{ bottom: 10px; padding: 0.6rem; \}\
+            #navigation-controls button \{ padding: 0.5rem 1rem; font-size: 0.8rem; \}\
+            .conclusion-highlight \{ font-size: 1.6rem; \}\
+            .thank-you-text \{ font-size: 3rem; \}\
+            .thank-you-emoji \{ font-size: 3rem;  \}\
+            .beating-heart-hand \{ font-size: 3.5rem; \}\
+            .canva-embed-container \{ height: 450px; \}\
+            #slide-selector-container \{ right: 10px; bottom: 70px; /* \uc0\u35519 \u25972 \u25163 \u27231 \u29256 \u19979 \u25289 \u36984 \u21934 \u20301 \u32622 \u65292 \u36991 \u20813 \u33287 \u25353 \u37397 \u37325 \u30090  */ \}\
+            #slide-select-dropdown \{ padding: 0.5rem; font-size: 0.8rem; max-width: 150px;\}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  1: \u27161 \u38988 \u38913  -->\
+    <section class="presentation-slide">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56960  \u25171 \u36896 AI\u31070 \u21161 \u29702 \u65292 \u24478 NotebookLM\u38283 \u22987  \u55357 \u56960 </h1>\
+            <div class="lecturer-info">\
+                <p class="slide-text" style="font-size: 1.2rem; margin: 0; color: #f0f0f0;">\
+                    \uc0\u35611 \u24107 \u65306 Gloria\u21555 \u31168 \u34349 \u32769 \u24107 <br>\
+                    Google \uc0\u35469 \u35657 \u35611 \u24107 \
+                </p>\
+            </div>\
+            <p class="slide-text" style="font-size: 1.1rem; margin-top: 0.5rem;">\uc0\u22283 \u31435 \u26366 \u25991 \u36786 \u24037  \u33521 \u25991 \u20860 \u21488 \u35486 \u25945 \u24107 </p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  2: \u35611 \u24107 \u20171 \u32057  (\u20462 \u25913 \u24460 ) -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title">\uc0\u55356 \u57119  \u35611 \u24107 \u20171 \u32057  \u55356 \u57119 </h1>\
+            <div style="margin-top: 1.5rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">\
+                <!-- \uc0\u20351 \u29992  div \u32780 \u38750  a \u27161 \u31844 \u65292 \u22240 \u28858 \u23427 \u20497 \u19981 \u26159 \u36899 \u32080 \u12290 \u20351 \u29992  inline-block \u21644  padding \u27169 \u25836 \u21345 \u29255 \u25928 \u26524  -->\
+                <div class="info-card info-card-purple" style="font-size: 1.5rem; cursor: default; min-width: 280px;">Gloria \uc0\u21555 \u31168 \u34349 \u32769 \u24107 </div>\
+                <div class="info-card" style="background-color: #dc3545; font-size: 1.2rem; cursor: default; min-width: 280px;">Google \uc0\u35469 \u35657 \u35611 \u24107 </div>\
+                <div class="info-card" style="background-color: #ffc107; color: #212529; font-size: 1.2rem; cursor: default; min-width: 280px;">\uc0\u22283 \u31435 \u26366 \u25991 \u36786 \u24037 \u22294 \u26360 \u39208 \u20027 \u20219  <small>(2025/08/01\u27491 \u24335 \u19978 \u20219 )</small></div>\
+                <div class="info-card info-card-green" style="font-size: 1.2rem; cursor: default; min-width: 280px;">\uc0\u33521 \u25991 \u20860 \u21488 \u35486 \u38617 \u23560 \u38263 \u25945 \u24107 </div>\
+                <div class="info-card" style="background-color: #17a2b8; font-size: 1.2rem; cursor: default; min-width: 280px; line-height: 1.4;">\uc0\u25216 \u34899 \u22411 \u39640 \u20013 \u33521 \u25991 \u23416 \u31185 \u20013 \u24515 <br>\u36914 \u38542 \u31278 \u23376 \u25945 \u24107 </div>\
+                <div class="info-card info-card-orange" style="font-size: 1.2rem; cursor: default; min-width: 280px;">\uc0\u25945 \u32946 \u37096 \u39640 \u20013 \u20778 \u36074 \u21270 \u25976 \u20301 \u31278 \u23376 \u25945 \u24107 </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  3: Google\u19977 \u22823 AI\u30340 \u27604 \u36611  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56522  Google \u19977 \u22823  AI \u24037 \u20855 \u27604 \u36611 </h1>\
+            <p class="slide-text">\uc0\u20102 \u35299  NotebookLM, Gemini, \u21644  Google AI Studio \u30340 \u19981 \u21516 \u20043 \u34389 \u65306 </p>\
+            <div class="styled-table-container" style="max-height: 70vh; overflow-y: auto;">\
+                 <table class="styled-table">\
+                    <thead>\
+                        <tr>\
+                            <th>\uc0\u24037 \u20855 \u21517 \u31281 </th>\
+                            <th>\uc0\u24375 \u38917  / \u20027 \u35201 \u21151 \u33021 </th>\
+                            <th>\uc0\u20351 \u29992 \u26178 \u27231  / \u36969 \u21512 \u22580 \u26223 </th>\
+                        </tr>\
+                    </thead>\
+                    <tbody>\
+                        <tr>\
+                            <td><strong>NotebookLM</strong></td>\
+                            <td>\
+                                <ul>\
+                                    <li>\uc0\u22522 \u26044 <strong>\u24744 \u25552 \u20379 \u30340 \u36039 \u26009 \u20358 \u28304 </strong>\u36914 \u34892 \u30740 \u31350 \u33287 \u23531 \u20316 </li>\
+                                    <li>\uc0\u24555 \u36895 \u25688 \u35201 \u12289 \u25552 \u21839 \u12289 \u29983 \u25104 \u31558 \u35352 \u12289 FAQ\u12289 \u23416 \u32722 \u25351 \u21335 </li>\
+                                    <li>\uc0\u25972 \u21512 \u22810 \u31278 \u20358 \u28304  (PDF, Docs, URL, YouTube\u23383 \u24149 )</li>\
+                                    <li><strong>\uc0\u20491 \u20154 \u21270  AI \u30740 \u31350 \u21161 \u29702 </strong></li>\
+                                </ul>\
+                            </td>\
+                            <td>\
+                                <ul>\
+                                    <li>\uc0\u28145 \u24230 \u38321 \u35712 \u33287 \u29702 \u35299 \u22823 \u37327 \u25991 \u20214 </li>\
+                                    <li>\uc0\u23416 \u34899 \u30740 \u31350 \u12289 \u22577 \u21578 \u25776 \u23531 \u12289 \u35506 \u31243 \u28310 \u20633 </li>\
+                                    <li><strong>\uc0\u24314 \u31435 \u20491 \u20154 \u30693 \u35672 \u24235 </strong>\u20006 \u33287  AI \u20114 \u21205 </li>\
+                                    <li>\uc0\u38656 \u35201  AI \u22238 \u25033 <strong>\u22196 \u26684 \u22522 \u26044 \u29305 \u23450 \u25991 \u20214 </strong>\u26178 </li>\
+                                </ul>\
+                            </td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>Gemini (App/Web)</strong></td>\
+                            <td>\
+                                <ul>\
+                                    <li><strong>\uc0\u36890 \u29992 \u22411  AI \u21161 \u29702 </strong> (\u32178 \u38913 \u29256  gemini.google.com \u25110  App)</li>\
+                                    <li>\uc0\u21109 \u24847 \u23531 \u20316 \u12289 \u31243 \u24335 \u30908 \u29983 \u25104 \u12289 \u22810 \u35486 \u35328 \u32763 \u35695 \u12289 \u26085 \u24120 \u21839 \u31572 </li>\
+                                    <li>\uc0\u21487 \u36899 \u25509  Google Apps (Gmail, Docs \u31561 \u65292 \u38656 \u20184 \u36027 \u29256 )</li>\
+                                    <li>\uc0\u22810 \u27169 \u24907 \u33021 \u21147  (\u29702 \u35299 \u25991 \u23383 \u12289 \u22294 \u29255 \u12289 \u35486 \u38899 )</li>\
+                                </ul>\
+                            </td>\
+                            <td>\
+                                <ul>\
+                                    <li>\uc0\u24555 \u36895 \u29554 \u21462 \u36039 \u35338 \u12289 \u33126 \u21147 \u28608 \u30442 </li>\
+                                    <li>\uc0\u25776 \u23531 \u33609 \u31295 \u12289 \u28516 \u39166 \u25991 \u23383 \u12289 \u23416 \u32722 \u26032 \u30693 </li>\
+                                    <li><strong>\uc0\u26085 \u24120 \u20219 \u21209 \u30340  AI \u21332 \u21161 </strong></li>\
+                                    <li>\uc0\u38656 \u35201 \u24291 \u27867 \u30693 \u35672 \u33287 \u21109 \u24847 \u29983 \u25104 \u26178 </li>\
+                                </ul>\
+                            </td>\
+                        </tr>\
+                         <tr>\
+                            <td><strong>Google AI Studio</strong><br><small>(ai.google.dev)</small></td>\
+                            <td>\
+                                <ul>\
+                                    <li><strong>\uc0\u38283 \u30332 \u32773 \u24179 \u21488 </strong>\u65292 \u29992 \u26044 \u21407 \u22411 \u35373 \u35336 \u33287 \u24314 \u27083  AI \u25033 \u29992 </li>\
+                                    <li>\uc0\u23384 \u21462 \u26368 \u26032 \u30340  Gemini API \u27169 \u22411 </li>\
+                                    <li>\uc0\u35519 \u25972 \u27169 \u22411 \u21443 \u25976 \u12289 \u28204 \u35430 \u25552 \u31034  (Prompt Engineering)</li>\
+                                    <li>\uc0\u29554 \u21462  API \u37329 \u38000 \u20197 \u25972 \u21512 \u21040 \u33258 \u24049 \u30340 \u25033 \u29992 \u31243 \u24335 \u20013 </li>\
+                                </ul>\
+                            </td>\
+                            <td>\
+                                <ul>\
+                                    <li>\uc0\u38283 \u30332 \u32773 \u25110 \u25216 \u34899 \u24859 \u22909 \u32773 <strong>\u25506 \u32034  AI \u27169 \u22411 \u33021 \u21147 </strong></li>\
+                                    <li>\uc0\u28858 \u29305 \u23450 \u25033 \u29992 \u22580 \u26223 \u35373 \u35336 \u21644 \u28204 \u35430  AI \u25552 \u31034 </li>\
+                                    <li><strong>\uc0\u24314 \u27083 \u23458 \u35069 \u21270 \u30340  AI \u21151 \u33021 \u25110 \u26381 \u21209 </strong></li>\
+                                    <li>\uc0\u38656 \u35201 \u26356 \u32048 \u32251 \u25511 \u21046 \u27169 \u22411 \u34892 \u28858 \u26178 </li>\
+                                </ul>\
+                            </td>\
+                        </tr>\
+                    </tbody>\
+                </table>\
+            </div>\
+            <p class="slide-text" style="margin-top: 1rem; font-size: 0.9rem;"><strong>\uc0\u37325 \u40670 \u25552 \u31034 \u65306 </strong><code>NotebookLM</code> \u24375 \u35519 \u22522 \u26044 \u24744 \u30340 \u36039 \u26009 \u65307 <code>Gemini</code> \u26159 \u33836 \u29992 \u21161 \u29702 \u65307 <code>AI Studio</code> \u21063 \u28858 \u38283 \u30332 \u32773 \u25171 \u36896 \u25033 \u29992 \u12290 </p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  4: \u21069 \u35328  - \u33879 \u20316 \u20154 \u26684 \u27402  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h2 class="slide-subtitle">I. \uc0\u21069 \u35328 \u65306 </h2>\
+            <h1 class="slide-title">\uc0\u55357 \u56540  \u33879 \u20316 \u20154 \u26684 \u27402 </h1>\
+            <p class="slide-text">\uc0\u35531 \u27880 \u24847 \u65292 \u20351 \u29992 AI\u24037 \u20855 \u26178 \u65292 \u20173 \u38656 \u23562 \u37325 \u20182 \u20154 \u30340 \u33879 \u20316 \u27402 \u30410 \u12290 \u20197 \u19979 \u24433 \u29255 \u25552 \u20379 \u30456 \u38364 \u35498 \u26126 \u65306 </p>\
+            <a href="https://youtu.be/Kb1IRCcnkhY" target="_blank" class="info-card info-card-purple" style="margin-top: 2rem; font-size: 1.3rem;">\
+                \uc0\u35264 \u30475 \u35498 \u26126 \u24433 \u29255  <i class="fab fa-youtube"></i>\
+            </a>\
+            <p class="slide-text" style="font-size: 0.8rem; margin-top: 1rem;">\uc0\u65288 \u40670 \u25802 \u19978 \u26041 \u25353 \u37397 \u35264 \u30475 \u24433 \u29255 \u65289 </p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  5: \u20351 \u29992 Google AI\u30340 \u38480 \u21046 \u21450 \u35215 \u31684  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u9878 \u65039  \u20351 \u29992 Google AI\u30340 \u38480 \u21046 \u21450 \u35215 \u31684 </h1>\
+            <p class="slide-text">\uc0\u22312 \u20351 \u29992  Gemini API (NotebookLM \u24213 \u23652 \u25216 \u34899 \u20043 \u19968 ) \u26178 \u65292 \u35531 \u21209 \u24517 \u36981 \u23432 \u30456 \u38364 \u25919 \u31574 \u65306 </p>\
+            <div class="styled-table-container" style="max-height: 60vh; overflow-y: auto;">\
+                 <table class="styled-table">\
+                    <thead>\
+                        <tr>\
+                            <th>\uc0\u25919 \u31574 \u37325 \u40670 </th>\
+                            <th>\uc0\u35498 \u26126 </th>\
+                        </tr>\
+                    </thead>\
+                    <tbody>\
+                        <tr>\
+                            <td><strong>\uc0\u31105 \u27490 \u29992 \u36884 </strong></td>\
+                            <td>\uc0\u19981 \u24471 \u29992 \u26044 \u29986 \u29983 \u20167 \u24680 \u35328 \u35542 \u12289 \u39479 \u25854 \u12289 \u24773 \u33394 \u38706 \u39592 \u20839 \u23481 \u12289 \u26292 \u21147 \u20839 \u23481 \u25110 \u20219 \u20309 \u38750 \u27861 \u27963 \u21205 \u12290 </td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u36039 \u26009 \u34389 \u29702 \u33287 \u38577 \u31169 </strong></td>\
+                            <td>Google \uc0\u26371 \u30435 \u25511  API \u20351 \u29992 \u24773 \u27841 \u20197 \u20597 \u28204 \u28651 \u29992 \u34892 \u28858 \u12290 \u25552 \u31034 \u12289 \u32972 \u26223 \u36039 \u35338 \u21644 \u36664 \u20986 \u20839 \u23481 \u21487 \u33021 \u26371 \u34987 \u20445 \u30041  <strong>55 \u22825 </strong>\u29992 \u26044 \u28651 \u29992 \u30435 \u25511 \u65292 \u20294 <strong>\u19981 \u26371 </strong>\u29992 \u26044 \u35347 \u32244 \u25110 \u24494 \u35519 \u36890 \u29992  AI \u27169 \u22411 \u12290 </td>\
+                        </tr>\
+                         <tr>\
+                            <td><strong>\uc0\u20154 \u24037 \u23529 \u26597 </strong></td>\
+                            <td>\uc0\u33509 \u31995 \u32113 \u20597 \u28204 \u21040 \u21487 \u30097 \u27963 \u21205 \u25110 \u20839 \u23481 \u27161 \u35352 \u65292 <strong>Google \u25480 \u27402 \u20154 \u21729 </strong>\u21487 \u33021 \u26371 \u36914 \u34892 \u20154 \u24037 \u23529 \u26597 \u12290 </td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u25919 \u31574 \u36981 \u24490 </strong></td>\
+                            <td>\uc0\u36949 \u21453 \u25919 \u31574 \u21487 \u33021 \u23566 \u33268 \u20351 \u29992 \u38480 \u21046 \u12289 \u26283 \u26178 \u20572 \u27402 \u65292 \u22196 \u37325 \u32773 \u29978 \u33267 \u24115 \u25142 \u38364 \u38281 \u12290 </td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u24847 \u35211 \u22238 \u39243 </strong></td>\
+                            <td>\uc0\u22312  AI Studio \u20013 \u25552 \u20379 \u30340 \u20559 \u22909 \u25237 \u31080 \u31561 \u24847 \u35211 \u22238 \u39243 \u65292 \u23559 \u29992 \u26044 \u25913 \u21892  Google \u29986 \u21697 \u21644 \u26381 \u21209 \u12290 \u25552 \u20132 \u24847 \u35211 \u26178 \u65292 \u35531 \u21247 \u21253 \u21547 \u25935 \u24863 \u25110 \u20491 \u20154 \u36039 \u35338 \u12290 </td>\
+                        </tr>\
+                         <tr>\
+                            <td><strong>\uc0\u36012 \u20219 \u27512 \u23660 </strong></td>\
+                            <td>\uc0\u20351 \u29992 \u32773 \u38656 \u23565 \u20854 \u25033 \u29992 \u31243 \u24335 \u30340 \u34892 \u28858 \u36000 \u36012 \u65292 \u20006 \u30906 \u20445 \u20854 \u31526 \u21512 \u25152 \u26377 \u36969 \u29992 \u27861 \u24459 \u33287 \u35215 \u31684 \u12290 </td>\
+                        </tr>\
+                    </tbody>\
+                </table>\
+            </div>\
+            <a href="https://ai.google.dev/gemini-api/docs/usage-policies?hl=zh-tw" target="_blank" class="info-card" style="margin-top: 1.5rem;">\uc0\u26597 \u30475 \u23436 \u25972 \u25919 \u31574  <i class="fas fa-external-link-alt"></i></a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  6: AI\u30340 Do vs Don't -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u9989  AI\u30340 Do vs \u55357 \u57003  Don't</h1>\
+            <p class="slide-text" style="font-size: 1.8rem; margin-top: 2rem;">\
+                \uc0\u20102 \u35299 AI\u33021 \u20570 \u20160 \u40636 \u65292 \u20197 \u21450 \u21738 \u20123 \u26178 \u20505 \u25105 \u20497 \u20173 \u38656 \u35641 \u24910 \u65281 \
+            </p>\
+            <div style="display: flex; justify-content: space-around; margin-top: 2rem;">\
+                <span style="font-size: 4rem;">\uc0\u55357 \u56397 </span>\
+                <span style="font-size: 4rem;">\uc0\u55358 \u56596 </span>\
+                <span style="font-size: 4rem;">\uc0\u55357 \u56398 </span>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  7: \u37325 \u35079 \u24615 \u36027 \u26178 \u36027 \u24037  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56481  \u37325 \u35079 \u24615 \u36027 \u26178 \u36027 \u24037 \u65306 \u20132 \u32102 AI\u30465 \u26178 \u30465 \u21147 </h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                \uc0\u20363 \u22914 \u65306 \u36039 \u26009 \u25972 \u29702 \u12289 \u21021 \u27493 \u25688 \u35201 \u12289 \u32763 \u35695 \u12289 \u26684 \u24335 \u36681 \u25563 \u31561 ...\
+            </p>\
+            <i class="fas fa-cogs fa-spin" style="font-size: 4rem; margin-top: 2rem; color: #3498db;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  8: \u31934 \u28310 \u21028 \u26039 \u30495 \u20605  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55358 \u56784  \u31934 \u28310 \u21028 \u26039 \u30495 \u20605 \u65306 <strong style="color: #FFD700; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">\u12300 \u20154 \u33126 \u12301 </strong>\u28961 \u27861 \u34987 \u21462 \u20195 </h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                AI \uc0\u21487 \u33021 \u29986 \u29983 \u12300 \u24187 \u35258 \u12301 \u25110 \u19981 \u28310 \u30906 \u36039 \u35338 \u65292 \u21209 \u24517 \u36914 \u34892 \u20107 \u23526 \u26597 \u26680 \u33287 \u25209 \u21028 \u24615 \u24605 \u32771 \u65281 \
+            </p>\
+            <i class="fas fa-brain" style="font-size: 4rem; margin-top: 2rem; color: #e74c3c;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  9: NoteBookLM\u36215 \u25163 \u24335  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h2 class="slide-subtitle" style="font-size: 2rem;">II. NoteBookLM\uc0\u36215 \u25163 \u24335  \u55357 \u56960 </h2>\
+            <a href="https://notebooklm.google/" target="_blank" class="info-card info-card-purple" style="font-size: 1.8rem; padding: 1rem 2rem; margin-top: 2rem;">\
+                NoteBookLM <i class="fas fa-external-link-alt"></i>\
+            </a>\
+            <p class="slide-text" style="margin-top: 2rem;">\uc0\u40670 \u25802 \u19978 \u26041 \u25353 \u37397 \u65292 \u38283 \u22987 \u24744 \u30340  NotebookLM \u20043 \u26053 \u65281 </p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  10: NoteBookLM\u20171 \u38754 \u19968 \u30446 \u30637 \u28982  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56826 \u65039  1. NoteBookLM\u20171 \u38754 \u19968 \u30446 \u30637 \u28982 </h1>\
+            <p class="slide-text">\uc0\u25506 \u32034  NotebookLM \u30340 \u20351 \u29992 \u32773 \u20171 \u38754 \u65292 \u29087 \u24713 \u21508 \u38917 \u21151 \u33021 \u12290 </p>\
+            <a href="https://notebooklm.google.com/?_gl=1*1m5f6p6*_ga*Njc4OTAwNjk0LjE3MjEyODUzODY.*_ga_W0LDH41ZCB*MTcyMTI4NTM4Ni4xLjAuMTcyMTI4NTM4Ni42MC4wLjA.&pli=1&authuser=0" target="_blank" class="info-card" style="font-size: 1.2rem;">\
+                \uc0\u25506 \u32034  NoteBookLM \u20171 \u38754  <i class="fas fa-search"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  11: NotebookLM\u20813 \u36027 \u29256  VS NotebookLM Plus\u20184 \u36027 \u29256 \u27604 \u36611  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u9878 \u65039  NotebookLM\u20813 \u36027 \u29256  VS Plus\u20184 \u36027 \u29256 </h1>\
+            <p class="slide-text">\uc0\u20102 \u35299 \u19981 \u21516 \u29256 \u26412 \u30340 \u24046 \u30064 \u65292 \u36984 \u25799 \u26368 \u36969 \u21512 \u24744 \u30340 \u26041 \u26696 \u65306 </p>\
+            <div class="styled-table-container" style="max-height: 60vh; overflow-y: auto;">\
+                <table class="styled-table">\
+                    <thead>\
+                        <tr>\
+                            <th>\uc0\u21151 \u33021 /\u38480 \u21046 </th>\
+                            <th>NotebookLM (\uc0\u20813 \u36027 \u29256 )</th>\
+                            <th>NotebookLM Plus (\uc0\u20184 \u36027 \u29256 )</th>\
+                        </tr>\
+                    </thead>\
+                    <tbody>\
+                        <tr>\
+                            <td><strong>\uc0\u31558 \u35352 \u26412 \u25976 \u37327 </strong></td>\
+                            <td>\uc0\u26368 \u22810  100 \u20491 </td>\
+                            <td><strong>\uc0\u33267 \u23569  5 \u20493 </strong> (\u26368 \u22810  500 \u20491 )</td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u27599 \u20491 \u31558 \u35352 \u26412 \u30340 \u20358 \u28304 \u25976 </strong></td>\
+                            <td>\uc0\u26368 \u22810  50 \u20491 </td>\
+                            <td><strong>\uc0\u33267 \u23569  5 \u20493 </strong> (\u26368 \u22810  300 \u20491 )</td>\
+                        </tr>\
+                         <tr>\
+                            <td><strong>\uc0\u27599 \u20491 \u20358 \u28304 \u23383 \u25976 \u19978 \u38480 </strong></td>\
+                            <td>\uc0\u32004  500,000 \u23383 </td>\
+                            <td>\uc0\u32004  500,000 \u23383  (\u33287 \u20813 \u36027 \u29256 \u30456 \u21516 )</td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u27599 \u26085 \u26597 \u35426 \u27425 \u25976 </strong></td>\
+                            <td>\uc0\u26368 \u22810  50 \u27425 </td>\
+                            <td><strong>\uc0\u33267 \u23569  5 \u20493 </strong> (\u26368 \u22810  500 \u27425 )</td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u27599 \u26085 \u35486 \u38899 \u25688 \u35201 \u29983 \u25104 \u27425 \u25976 </strong></td>\
+                            <td>\uc0\u26368 \u22810  3 \u27425 </td>\
+                            <td><strong>\uc0\u33267 \u23569  5 \u20493 </strong> (\u26368 \u22810  20 \u27425 )</td>\
+                        </tr>\
+                        <tr>\
+                            <td><strong>\uc0\u36914 \u38542 \u21151 \u33021 </strong></td>\
+                            <td>\uc0\u22522 \u26412 \u21151 \u33021 </td>\
+                            <td><strong>\uc0\u32842 \u22825 \u23560 \u29992 \u31558 \u35352 \u26412 \u20849 \u20139 \u12289 \u36914 \u38542 \u32842 \u22825 \u35373 \u23450 \u12289 \u31558 \u35352 \u26412 \u20998 \u26512 \u12289 \u38989 \u22806 \u38577 \u31169 \u33287 \u23433 \u20840 \u24615 </strong></td>\
+                        </tr>\
+                         <tr>\
+                            <td><strong>\uc0\u36969 \u29992 \u23565 \u35937 </strong></td>\
+                            <td>\uc0\u20491 \u20154 \u20351 \u29992 \u32773 \u20837 \u38272 </td>\
+                            <td><strong>\uc0\u36914 \u38542 \u20351 \u29992 \u32773 \u12289 \u22296 \u38538 \u12289 \u20225 \u26989 \u12289 \u25945 \u32946 \u27231 \u27083 </strong> (\u36879 \u36942  Google One AI Premium, Google Workspace, Google Cloud)</td>\
+                        </tr>\
+                    </tbody>\
+                </table>\
+            </div>\
+            <a href="https://notebooklm.google/plus" target="_blank" class="info-card info-card-purple" style="margin-top: 1.5rem;">\
+                \uc0\u20102 \u35299 \u26356 \u22810  NotebookLM Plus <i class="fas fa-rocket"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  12: \u20184 \u36027 \u29256 \u65306 \u36023 \u19968 \u24471 \u19977  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55356 \u57217  \u20184 \u36027 \u29256 \u65306 \u36023 \u19968 \u24471 \u19977  (Google One AI Premium)</h1>\
+            <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 2rem; flex-wrap: wrap; gap: 1rem;">\
+                <div class="text-center p-4 m-2 bg-opacity-25 bg-white rounded-lg shadow-xl" style="min-width: 200px; flex-basis: 28%;">\
+                    <i class="fas fa-lightbulb fa-3x mb-2 text-yellow-400"></i>\
+                    <h3 class="text-xl font-semibold">NotebookLM Plus</h3>\
+                    <p class="text-sm">\uc0\u36914 \u38542 \u30740 \u31350 \u33287 \u23531 \u20316 </p>\
+                </div>\
+                <div class="text-2xl font-bold mx-2 text-gray-300 self-center">+</div>\
+                <div class="text-center p-4 m-2 bg-opacity-25 bg-white rounded-lg shadow-xl" style="min-width: 200px; flex-basis: 28%;">\
+                    <i class="fas fa-brain fa-3x mb-2 text-purple-400"></i>\
+                    <h3 class="text-xl font-semibold">Gemini Advanced</h3>\
+                    <p class="text-sm">\uc0\u26368 \u24375 \u22823 \u30340  AI \u27169 \u22411 </p>\
+                </div>\
+                 <div class="text-2xl font-bold mx-2 text-gray-300 self-center">+</div>\
+                <div class="text-center p-4 m-2 bg-opacity-25 bg-white rounded-lg shadow-xl" style="min-width: 200px; flex-basis: 28%;">\
+                    <i class="fas fa-hdd fa-3x mb-2 text-blue-400"></i>\
+                    <h3 class="text-xl font-semibold">2TB Google One</h3>\
+                    <p class="text-sm">\uc0\u38642 \u31471 \u20786 \u23384 \u31354 \u38291 </p>\
+                </div>\
+            </div>\
+            <p class="slide-text" style="margin-top: 2rem;">(\uc0\u36890 \u24120 \u21253 \u21547 \u22312  Google One AI Premium \u26041 \u26696 \u20013 )</p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  13: NotebookLM\u25163 \u25226 \u25163 \u23526 \u20316  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u57056 \u65039  NotebookLM\u25163 \u25226 \u25163 \u23526 \u20316 </h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                \uc0\u25509 \u19979 \u20358 \u65292 \u35731 \u25105 \u20497 \u19968 \u36215 \u21205 \u25163 \u25805 \u20316 \u65292 \u39636 \u39511  NotebookLM \u30340 \u24375 \u22823 \u21151 \u33021 \u65281 \
+            </p>\
+            <i class="fas fa-laptop-code" style="font-size: 4rem; margin-top: 2rem; color: #2ecc71;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  14: \u24314 \u35696 \u20351 \u29992 \u20491 \u20154 \u24115 \u34399 \u30331 \u20837  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56593  \u24314 \u35696 \u20351 \u29992 \u20491 \u20154 \u24115 \u34399 \u30331 \u20837 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\
+                \uc0\u26356 \u20855 \u20139 \u29992 \u26368 \u26032 \u20840 \u21151 \u33021 \u20027 \u23566 \u24615 \u65292 \u30906 \u20445 \u24744 \u30340 \u36039 \u26009 \u33287 \u35373 \u23450 \u21516 \u27493 \u12290 \
+            </p>\
+            <i class="fas fa-user-check" style="font-size: 4rem; margin-top: 2rem; color: #f39c12;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  15: \u35531 \u21152 \u20837 Padlet -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56541  \u35531 \u21152 \u20837 Padlet</h1>\
+            <p class="slide-text">\uc0\u33287 \u25105 \u20497 \u20998 \u20139 \u24744 \u30340 \u24819 \u27861 \u21644 \u21839 \u38988 \u65281 </p>\
+            <a href="https://padlet.com/gloriawu98gw2/20250710notebooklm-gloria-at-bqzkg1fzbtvkyqlf" target="_blank" class="info-card info-card-purple" style="font-size: 1.5rem;">\
+                \uc0\u21152 \u20837  Padlet \u35342 \u35542 \u21312  <i class="fas fa-comments"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  16: \u22810 \u27169 \u24907 \u36039 \u26009 \u20358 \u28304 \u27963 \u29992  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56538  \u22810 \u27169 \u24907 \u36039 \u26009 \u20358 \u28304 \u27963 \u29992 </h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                NotebookLM \uc0\u25903 \u25588 \u22810 \u31278 \u39006 \u22411 \u30340 \u36039 \u26009 \u20358 \u28304 \u65292 \u35731 \u24744 \u30340 \u30740 \u31350 \u26356 \u20840 \u38754 \u12290 \
+            </p>\
+            <div class="flex justify-around items-center mt-8 flex-wrap">\
+                <i class="fas fa-file-alt fa-3x text-blue-300 m-2" title="\uc0\u25991 \u20214 "></i>\
+                <i class="fas fa-link fa-3x text-green-300 m-2" title="\uc0\u32178 \u22336 "></i>\
+                <i class="fab fa-youtube fa-3x text-red-400 m-2" title="YouTube"></i>\
+                <i class="fas fa-file-pdf fa-3x text-orange-300 m-2" title="PDF"></i>\
+                <i class="fas fa-file-audio fa-3x text-purple-300 m-2" title="\uc0\u38899 \u27284 "></i>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  17: \u20241 \u24687 \u19968 \u19979  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title" style="color: #82E0AA;">\uc0\u9749  \u20241 \u24687 \u19968 \u19979  \u9749 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\uc0\u20280 \u23637 \u19968 \u19979 \u65292 \u30475 \u30475 \u26377 \u36259 \u30340 \u35373 \u35336 \u65281 </p>\
+            <div class="canva-embed-container">\
+                <iframe loading="lazy" src="https://www.canva.com/design/DAGlesP3HlI/C-gqTK9jC-Rd-PF6enIbGg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>\
+            </div>\
+             <a href="https://www.canva.com/design/DAGlesP3HlI/C-gqTK9jC-Rd-PF6enIbGg/view?utm_content=DAGlesP3HlI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc4898417c0" target="_blank" class="info-card" style="margin-top: 1rem; background-color: #17a2b8;">\
+                \uc0\u28961 \u27861 \u39023 \u31034 \u65311 \u40670 \u27492 \u26597 \u30475  <i class="fas fa-external-link-alt"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  18: 1. \u32178 \u38913 url -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55356 \u57104  1. \u32178 \u38913  URL</h1>\
+            <p class="slide-text">\uc0\u30452 \u25509 \u36028 \u19978 \u32178 \u22336 \u65292 NotebookLM \u21363 \u21487 \u20998 \u26512 \u32178 \u38913 \u20839 \u23481 \u12290 </p>\
+            <a href="https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0050021" target="_blank" class="info-card" style="font-size: 1.2rem;">\
+                \uc0\u31684 \u20363  <i class="fas fa-external-link-square-alt"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  19: 2. PDF -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56516  2. PDF</h1>\
+            <p class="slide-text">\uc0\u19978 \u20659  PDF \u25991 \u20214 \u65292 \u36914 \u34892 \u28145 \u24230 \u20998 \u26512 \u33287 \u25688 \u35201 \u12290 </p>\
+            <a href="https://web1.tcte.edu.tw/EXAM/114_4y/" target="_blank" class="info-card info-card-purple" style="font-size: 1.2rem;">\
+                \uc0\u31684 \u20363 \u20358 \u28304  <i class="fas fa-file-pdf"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  20: 3. Docs/Word -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56529  3. Docs/Word</h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                \uc0\u25903 \u25588  Google Docs \u25110  Microsoft Word \u25991 \u20214 \u65292 \u36629 \u39686 \u21295 \u20837 \u24744 \u30340 \u31558 \u35352 \u33287 \u22577 \u21578 \u12290 \
+            </p>\
+            <i class="fas fa-file-word" style="font-size: 4rem; margin-top: 2rem; color: #2980b9;"></i>\
+            <a href="https://docs.google.com/document/d/15LZ5M3rf6aa_HgYVndx23HP8GOs7L90IU5U7YC9PL08/template/preview" target="_blank" class="info-card" style="margin-top: 2rem; background-color: #ffc107; color: #212529;">\
+                \uc0\u20351 \u29992 \u31684 \u26412  <i class="fas fa-clone"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  21: 4. YouTube -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56570  4. YouTube</h1>\
+            <p class="slide-text">\uc0\u36028 \u19978  YouTube \u24433 \u29255 \u36899 \u32080 \u65292 \u29554 \u21462 \u23383 \u24149 \u12289 \u25688 \u35201 \u33287 \u37325 \u40670 \u12290 </p>\
+            <a href="https://youtu.be/DkrMNUfNYqQ?si=B0B1QUL4hCydjRDW" target="_blank" class="info-card info-card-purple" style="margin-top: 2rem; font-size: 1.3rem;">\
+                \uc0\u35264 \u30475 YouTube\u31684 \u20363  <i class="fab fa-youtube"></i>\
+            </a>\
+             <p class="slide-text" style="font-size: 0.8rem; margin-top: 1rem;">\uc0\u65288 \u40670 \u25802 \u19978 \u26041 \u25353 \u37397 \u35264 \u30475 \u24433 \u29255 \u65289 </p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  22: 5. Mp3\u36880 \u23383 \u31295  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55356 \u57255  5. MP3 \u36880 \u23383 \u31295 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\
+                \uc0\u38899 \u27284 \u36681 \u36880 \u23383 \u31295 \u65292 \u36895 \u25972 \u29702 \u26371 \u35696 \u35352 \u37636 \u25110 \u35370 \u35527 \u20839 \u23481 \u12290 \
+            </p>\
+            <i class="fas fa-microphone-alt" style="font-size: 4rem; margin-top: 1.5rem; color: #8e44ad;"></i>\
+            <p class="slide-text" style="margin-top:1rem; font-size: 0.9rem;">(\uc0\u36890 \u24120 \u38656 \u35201 \u20808 \u23559  MP3 \u36681 \u28858 \u25991 \u23383 \u27284 \u20877 \u21295 \u20837 \u65292 \u25110 \u21033 \u29992 \u25903 \u25588 \u35486 \u38899 \u36664 \u20837 \u30340 \u31558 \u35352 )</p>\
+            <a href="https://notebooklm.google.com/notebook/535ee215-0887-4703-9344-c01302d422ef?_gl=1*1m5f6p6*_ga*Njc4OTAwNjk0LjE3MjEyODUzODY.*_ga_W0LDH41ZCB*MTcyMTI4NTM4Ni4xLjAuMTcyMTI4NTM4Ni42MC4wLjA.&pli=1&authuser=0" target="_blank" class="info-card info-card-green" style="margin-top: 1.5rem;">\
+                Demo <i class="fas fa-play-circle"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  23: \u20241 \u24687 \u19968 \u19979  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title" style="color: #FAD7A0;">\uc0\u55358 \u56800  \u20241 \u24687 \u19968 \u19979  \u55358 \u56800 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\uc0\u20877 \u27425 \u25918 \u39686 \u65292 \u28310 \u20633 \u19979 \u19968 \u38542 \u27573 \u65281 </p>\
+            <div class="canva-embed-container">\
+                <iframe loading="lazy" src="https://www.canva.com/design/DAGlesP3HlI/C-gqTK9jC-Rd-PF6enIbGg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>\
+            </div>\
+            <a href="https://www.canva.com/design/DAGlesP3HlI/C-gqTK9jC-Rd-PF6enIbGg/view?utm_content=DAGlesP3HlI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc4898417c0" target="_blank" class="info-card" style="margin-top: 1rem; background-color: #6610f2;">\
+                \uc0\u28961 \u27861 \u39023 \u31034 \u65311 \u40670 \u27492 \u26597 \u30475  <i class="fas fa-external-link-alt"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  24: NotebookLM\u36914 \u38542 \u25506 \u32034  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55358 \u56813  NotebookLM\u36914 \u38542 \u25506 \u32034 </h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                \uc0\u30332 \u25496 \u26356 \u22810  NotebookLM \u30340 \u38577 \u34255 \u25216 \u24039 \u33287 \u39640 \u38542 \u25033 \u29992 \u65281 \
+            </p>\
+            <i class="fas fa-search-plus" style="font-size: 4rem; margin-top: 2rem; color: #1abc9c;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  25: \u36914 \u38542 \u25506 \u32034 \u20358 \u28304  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56538  \u36914 \u38542 \u25506 \u32034 \u20358 \u28304 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\
+                \uc0\u19968 \u37749 \u21295 \u20837 \u22810 \u31558 \u24310 \u20280 \u36039 \u26009 \u65292 \u25844 \u23637 \u24744 \u30340 \u30693 \u35672 \u32178 \u32097 \u12290 \
+            </p>\
+            <i class="fas fa-project-diagram" style="font-size: 4rem; margin-top: 2rem; color: #d35400;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  26: \u20171 \u38754 \u20854 \u20182 \u21151 \u33021 \u37749  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u9881 \u65039  \u20171 \u38754 \u20854 \u20182 \u21151 \u33021 \u37749 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\
+                \uc0\u35352 \u20107 \u36681 \u28858 \u36039 \u26009 \u20358 \u28304 \u65292 \u35731 \u24744 \u30340 \u31558 \u35352 \u20063 \u25104 \u28858  AI \u20998 \u26512 \u30340 \u19968 \u37096 \u20998 \u12290 \
+            </p>\
+            <i class="fas fa-exchange-alt" style="font-size: 4rem; margin-top: 2rem; color: #7f8c8d;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  27: \u35486 \u38899 \u25688 \u35201  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55356 \u57241 \u65039  \u35486 \u38899 \u25688 \u35201 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem; margin-bottom: 0.5rem;">\
+                \uc0\u35486 \u35328 \u35373 \u23450 \u65306 \u36984 \u25799 \u24744 \u20559 \u22909 \u30340 \u35486 \u38899 \u25688 \u35201 \u35486 \u35328 \u12290 \
+            </p>\
+            <p class="slide-text" style="font-size: 1.3rem;">\
+                \uc0\u33258 \u35330  Podcast \u35527 \u35542 \u26041 \u21521 \u65306 \u24341 \u23566  AI \u29983 \u25104 \u31526 \u21512 \u24744 \u38656 \u27714 \u30340 \u35486 \u38899 \u20839 \u23481 \u12290 \
+            </p>\
+            <i class="fas fa-podcast" style="font-size: 4rem; margin-top: 2rem; color: #c0392b;"></i>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  28: \u20241 \u24687 \u19968 \u19979  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title" style="color: #A569BD;">\uc0\u55358 \u56792 \u8205 \u9792 \u65039  \u20241 \u24687 \u19968 \u19979  \u55358 \u56792 \u8205 \u9794 \u65039 </h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\uc0\u26368 \u24460 \u34909 \u21050 \u21069 \u30340 \u23527 \u38748 \u29255 \u21051 \u65281 </p>\
+            <div class="canva-embed-container">\
+                <iframe loading="lazy" src="https://www.canva.com/design/DAGlesP3HlI/C-gqTK9jC-Rd-PF6enIbGg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>\
+            </div>\
+             <a href="https://www.canva.com/design/DAGlesP3HlI/C-gqTK9jC-Rd-PF6enIbGg/view?utm_content=DAGlesP3HlI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hc4898417c0" target="_blank" class="info-card" style="margin-top: 1rem; background-color: #fd7e14;">\
+                \uc0\u28961 \u27861 \u39023 \u31034 \u65311 \u40670 \u27492 \u26597 \u30475  <i class="fas fa-external-link-alt"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  29: \u24515 \u26234 \u22294 \u36914 \u38542 \u25506 \u31350  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title" style="font-size: 3.2rem;">\uc0\u55358 \u56800  \u24515 \u26234 \u22294 \u36914 \u38542 \u25506 \u31350  <i class="fas fa-lightbulb" style="color: #f1c40f;"></i></h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\uc0\u23559 \u35079 \u38620 \u36039 \u35338 \u35222 \u35258 \u21270 \u65292 \u28608 \u30332 \u26356 \u22810 \u24605 \u32771 \u36899 \u32080 \u65281 </p>\
+            <a href="https://notebooklm.google.com/notebook/5c2e64e1-376e-4426-8983-c1f54cff154d" target="_blank" class="info-card info-card-purple" style="font-size: 1.3rem; padding: 0.8rem 1.8rem; margin-top: 2rem;">\
+                \uc0\u24515 \u26234 \u22294  Demo <i class="fas fa-sitemap"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  30: \u22810 \u27169 \u24907 \u25033 \u29992  (\u20462 \u25913 \u24460 ) -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title" style="font-size: 3.2rem;">\uc0\u55356 \u57256  \u22810 \u27169 \u24907 \u25033 \u29992  <i class="fas fa-photo-video" style="color: #3498db;"></i></h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\uc0\u32080 \u21512 \u25991 \u23383 \u12289 \u22294 \u20687 \u12289 \u24433 \u38899 \u65292 \u21109 \u36896 \u26356 \u35920 \u23500 \u30340 \u23416 \u32722 \u39636 \u39511 \u65281 </p>\
+            <div style="margin-top: 2.5rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem;">\
+                <a href="https://storyteller.mootion.com/referral?code=ASvHbKzJuCv" target="_blank" class="info-card info-card-orange" style="font-size: 1.2rem;">\
+                    Mootion \uc0\u25925 \u20107 \u25944 \u36848  <i class="fas fa-film"></i>\
+                </a>\
+                <a href="https://notebooklm.google.com/notebook/c5acaefd-dd66-4083-a110-d5e91ce5f4e8?_gl=1*1m5f6p6*_ga*Njc4OTAwNjk0LjE3MjEyODUzODY.*_ga_W0LDH41ZCB*MTcyMTI4NTM4Ni4xLjAuMTcyMTI4NTM4Ni42MC4wLjA.&pli=1&authuser=0" target="_blank" class="info-card info-card-red" style="font-size: 1.2rem;">\
+                    \uc0\u35413 \u37327 \u21629 \u38988  Demo <i class="fas fa-question-circle"></i>\
+                </a>\
+                <a href="https://youtu.be/Echq9SawJjM" target="_blank" class="info-card" style="font-size: 1.2rem; background-color: #20c997;">\
+                    Discover Your Future at Hungkuang Vids demo <i class="fab fa-youtube"></i>\
+                </a>\
+                <a href="https://youtu.be/AC3bgTWTCDQ" target="_blank" class="info-card" style="font-size: 1.2rem; background-color: #6f42c1;">\
+                    \uc0\u36984 \u25799 \u24344 \u20809 \u65292 \u38928 \u35211 \u20320 \u30340 \u33729 \u33521 \u26410 \u20358 Mn demo <i class="fab fa-youtube"></i>\
+                </a>\
+            </div>\
+        </div>\
+    </section>\
+    \
+    <!-- \uc0\u25237 \u24433 \u29255  31: Gloria\u32769 \u24107 \u30340 \u36039 \u28304 \u20998 \u20139  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title mochiy-pop-font" style="font-size: 3rem; color: #FFB6C1;">\uc0\u55357 \u56470  Gloria\u32769 \u24107 \u30340 \u36039 \u28304 \u20998 \u20139  \u55357 \u56470 </h1>\
+            <div style="margin-top: 1.5rem; display: flex; flex-direction: column; align-items: center; gap: 1rem;">\
+                <a href="https://youtube.com/playlist?list=PLyRkKil2c7hI8YfZ-8f6FxCnJL8PiZKKn&si=vxhug6P_9f-KwvFR\'92" target="_blank" class="info-card" style="background-color: #FF6347; min-width: 280px;">\
+                    <i class="fab fa-youtube"></i> Gloria\uc0\u32769 \u24107 \u30340 \u21488 \u35486 \u36629 \u21487 \u23416 \
+                </a>\
+                <a href="https://youtube.com/playlist?list=PLH7wPryxIEEye3s5_PuaoZ0iNefTqQi52&si=zVeinE6NcjAs5mfX\'92" target="_blank" class="info-card" style="background-color: #4682B4; min-width: 280px;">\
+                    <i class="fab fa-google-drive"></i> Gloria\uc0\u32769 \u24107 \u30340 \u20998 \u20139 GM\
+                </a>\
+                <a href="https://youtube.com/playlist?list=PLPq8qJBv2ernUiTIQyLmbcGYKrMF3djVa&si=c0322qjQ56zKwhw5\'92" target="_blank" class="info-card" style="background-color: #3CB371; min-width: 280px;">\
+                    <i class="fas fa-share-alt"></i> Gloria\uc0\u20998 \u20139 \
+                </a>\
+                <a href="https://youtube.com/playlist?list=PLH7wPryxIEExmpuM-FwSQ9MeHahH8Dk6x&si=IghVme_tqga1xR7y\'92" target="_blank" class="info-card" style="background-color: #DB7093; min-width: 280px;">\
+                    <i class="fas fa-music"></i> Gloria's Suno\
+                </a>\
+                <a href="https://www.facebook.com/groups/2294169410829101" target="_blank" class="info-card" style="background-color: #1877F2; min-width: 280px;">\
+                    <i class="fab fa-facebook"></i> GEG Taiwan | \uc0\u21623 \u39165 \u27794 \
+                </a>\
+            </div>\
+             <p class="slide-text" style="font-size: 0.8rem; margin-top: 1rem;">\uc0\u65288 YouTube \u36899 \u32080 \u20677 \u20379 \u21443 \u32771 \u65292 \u35531 \u26367 \u25563 \u28858 \u23526 \u38555 \u24433 \u29255  ID\u65289 </p>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  32: \u32080 \u35486  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title mochiy-pop-font">\uc0\u55356 \u57225  \u32080 \u35486 \u65306 Let's Reflect!</h1>\
+            <p class="conclusion-highlight mochiy-pop-font">\
+                \uc0\u31070 \u21161 \u29702 \u26159 AI\u24037 \u20855 \u65292 <br>\u12300 \u20154 \u12301 \u25165 \u26159 \u30495 \u27491 \u20027 \u23472 \u32773 \u65281 \
+            </p>\
+            <i class="fas fa-user-astronaut" style="font-size: 4rem; margin-top: 2.5rem; color: #FFD700;"></i>\
+        </div>\
+    </section>\
+    \
+    <!-- \uc0\u25237 \u24433 \u29255  33: \u22238 \u39243 \u34920 \u21934  -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title">\uc0\u55357 \u56541  \u22238 \u39243 \u34920 \u21934 </h1>\
+            <p class="slide-text" style="font-size: 1.5rem;">\
+                \uc0\u35531 \u25475 \u25551  QR Code \u25110 \u40670 \u25802 \u36899 \u32080 \u22635 \u23531 \u22238 \u39243 \u65292 \u24744 \u30340 \u24847 \u35211 \u23565 \u25105 \u20497 \u38750 \u24120 \u37325 \u35201 \u65281 \
+            </p>\
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://docs.google.com/forms/d/e/1FAIpQLSeiLMef4CWks9KUE5PaHuOmyOi3RLp39j1auP_z-NA5YyyAQQ/viewform" alt="\uc0\u22238 \u39243 \u34920 \u21934  QR Code" style="margin: 1.5rem auto; border-radius: 0.5rem; display: block; background-color: white; padding: 10px;">\
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeiLMef4CWks9KUE5PaHuOmyOi3RLp39j1auP_z-NA5YyyAQQ/viewform" target="_blank" class="info-card" style="background-color: #28a745; border-color: #28a745;">\
+                \uc0\u22635 \u23531 \u22238 \u39243 \u34920 \u21934  <i class="fas fa-edit"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  34: \u20491 \u20154 \u23560 \u23660 \u30740 \u32722 \u35657 \u26360  (\u20462 \u25913 \u24460 ) -->\
+    <section class="presentation-slide" style="display: none;">\
+        <div class="slide-content animate-on-scroll">\
+            <h1 class="slide-title prominent-title" style="font-size: 3rem;">\uc0\u55357 \u56540  \u20491 \u20154 \u23560 \u23660 \u30740 \u32722 \u35657 \u26360  <i class="fas fa-award" style="color: #FFD700;"></i></h1>\
+            <p class="slide-text" style="font-size: 1.3rem;">\uc0\u24863 \u35613 \u24744 \u30340 \u21443 \u33287 \u65292 \u40670 \u25802 \u19979 \u26041 \u25353 \u37397 \u35069 \u20316 \u24744 \u30340 \u20491 \u20154 \u30740 \u32722 \u35657 \u26360 \u65281 </p>\
+            <a href="https://gloria-wu98.github.io/1certi.github.io/1certi.html" target="_blank" class="info-card info-card-green" style="margin-top: 2rem; font-size: 1.3rem;">\
+                \uc0\u40670 \u36984 \u36664 \u20837 \u22995 \u21517  <i class="fas fa-pencil-alt"></i>\
+            </a>\
+        </div>\
+    </section>\
+\
+    <!-- \uc0\u25237 \u24433 \u29255  35: Thank You (\u21407 \u31532 34\u38913 ) -->\
+    <section class="presentation-slide" id="thank-you-slide">\
+        <div class="slide-content animate-on-scroll">\
+            <canvas id="confetti-canvas"></canvas>\
+            <h1 class="thank-you-text mochiy-pop-font">THANK YOU!</h1>\
+            <p class="slide-text" style="font-size: 1.5rem; color: #f0f0f0;">\uc0\u24863 \u35613 \u24744 \u30340 \u21443 \u33287 \u65281 </p>\
+            <div class="thank-you-emoji-container">\
+                <span class="thank-you-emoji">\uc0\u55357 \u56911 </span>\
+                <span class="beating-heart-hand">\uc0\u55358 \u57078 </span>\
+                <span class="thank-you-emoji">\uc0\u55356 \u57119 </span>\
+            </div>\
+            <button onclick="window.print()" class="info-card" style="margin-top: 2.5rem; background-color: #6c757d;">\
+                <i class="fas fa-print"></i> \uc0\u21015 \u21360 \u31777 \u22577 \
+            </button>\
+        </div>\
+    </section>\
+\
+\
+    <div id="navigation-controls">\
+        <button id="prev-slide" title="\uc0\u19978 \u19968 \u24373  (\u24038 \u31661 \u38957 )">\
+            <i class="fas fa-arrow-left"></i> Previous\
+        </button>\
+        <button id="next-slide" title="\uc0\u19979 \u19968 \u24373  (\u21491 \u31661 \u38957 ) / \u36820 \u22238 \u27161 \u38988 \u38913 ">\
+            Next <i class="fas fa-arrow-right"></i>\
+        </button>\
+    </div>\
+\
+    <div id="slide-selector-container">\
+        <select id="slide-select-dropdown" title="\uc0\u24555 \u36895 \u36339 \u36681 \u21040 \u25351 \u23450 \u38913 \u38754 "></select>\
+    </div>\
+\
+    <script>\
+        document.addEventListener('DOMContentLoaded', () => \{\
+            const slides = document.querySelectorAll('.presentation-slide');\
+            const prevButton = document.getElementById('prev-slide');\
+            const nextButton = document.getElementById('next-slide');\
+            const slideSelectDropdown = document.getElementById('slide-select-dropdown'); \
+            let currentSlideIndex = 0;\
+            \
+            const framerAnimator = window.motion; \
+\
+            const confettiCanvas = document.getElementById('confetti-canvas');\
+            let confettiCtx = confettiCanvas ? confettiCanvas.getContext('2d') : null;\
+            let confettiParticles = [];\
+            let confettiAnimationId = null;\
+\
+            const confettiColors = ["#f94144", "#f3722c", "#f8961e", "#f9c74f", "#90be6d", "#43aa8b", "#577590", "#277da1"];\
+\
+            function Particle(x, y, size, color, velocity) \{\
+                this.x = x; this.y = y; this.size = size; this.color = color;\
+                this.velocity = velocity; this.opacity = 1;\
+                this.rotation = Math.random() * 360;\
+                this.angularVelocity = (Math.random() - 0.5) * 0.1;\
+            \}\
+\
+            Particle.prototype.draw = function() \{\
+                if (!confettiCtx) return;\
+                confettiCtx.save();\
+                confettiCtx.translate(this.x + this.size / 2, this.y + this.size / 2);\
+                confettiCtx.rotate(this.rotation);\
+                confettiCtx.globalAlpha = this.opacity;\
+                confettiCtx.fillStyle = this.color;\
+                confettiCtx.fillRect(-this.size / 2, -this.size / 2, this.size, this.size * 1.5);\
+                confettiCtx.restore();\
+            \};\
+\
+            Particle.prototype.update = function() \{\
+                this.x += this.velocity.x; this.y += this.velocity.y;\
+                this.velocity.y += 0.05; this.opacity -= 0.008;\
+                this.rotation += this.angularVelocity;\
+                if (this.opacity < 0) this.opacity = 0;\
+            \};\
+\
+            function createConfetti() \{\
+                if (!confettiCanvas || !confettiCtx) return;\
+                const particleCount = 150; \
+                const centerX = confettiCanvas.width / 2;\
+                for (let i = 0; i < particleCount; i++) \{\
+                    const size = Math.random() * 8 + 4;\
+                    const color = confettiColors[Math.floor(Math.random() * confettiColors.length)];\
+                    const velocity = \{ x: (Math.random() - 0.5) * 8, y: -(Math.random() * 6 + 4) \};\
+                    const x = centerX + (Math.random() - 0.5) * (confettiCanvas.width * 0.6);\
+                    const y = Math.random() * 50 - 20;\
+                    confettiParticles.push(new Particle(x, y, size, color, velocity));\
+                \}\
+            \}\
+\
+            function animateConfetti() \{\
+                if (!confettiCanvas || !confettiCtx) return;\
+                confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);\
+                confettiParticles.forEach((particle, index) => \{\
+                    particle.update(); particle.draw();\
+                    if (particle.opacity <= 0 || particle.y > confettiCanvas.height) confettiParticles.splice(index, 1);\
+                \});\
+                if (confettiParticles.length > 0) confettiAnimationId = requestAnimationFrame(animateConfetti);\
+                else \{\
+                    if (confettiCtx) confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);\
+                    cancelAnimationFrame(confettiAnimationId); confettiAnimationId = null;\
+                \}\
+            \}\
+\
+            function startConfetti() \{\
+                if (!confettiCanvas || !confettiCtx) return;\
+                const slideContent = confettiCanvas.parentElement;\
+                if (slideContent) \{\
+                    confettiCanvas.width = slideContent.offsetWidth;\
+                    confettiCanvas.height = slideContent.offsetHeight;\
+                \}\
+                confettiParticles = []; createConfetti();\
+                if (!confettiAnimationId) animateConfetti();\
+            \}\
+\
+            function stopConfetti() \{\
+                if (confettiAnimationId) \{ cancelAnimationFrame(confettiAnimationId); confettiAnimationId = null; \}\
+                confettiParticles = [];\
+                if (confettiCtx && confettiCanvas) confettiCtx.clearRect(0, 0, confettiCanvas.width, confettiCanvas.height);\
+            \}\
+\
+            function animateElementsInSlide(slide) \{\
+                const elementsToAnimate = slide.querySelectorAll('.animate-on-scroll');\
+                elementsToAnimate.forEach(element => \{\
+                    const delay = parseFloat(element.getAttribute('data-delay')) || 0;\
+                    if (framerAnimator && typeof framerAnimator.set === 'function') framerAnimator.set(element, \{ opacity: 0, y: 50 \});\
+                    else \{ element.style.opacity = 0; element.style.transform = 'translateY(50px)';\}\
+                    if (framerAnimator && typeof framerAnimator.animate === 'function') framerAnimator.animate(element, \{ opacity: 1, y: 0 \}, \{ duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94], delay: delay \});\
+                    else \{ setTimeout(() => \{ element.style.transition = `opacity 0.7s ease-out $\{delay\}s, transform 0.7s ease-out $\{delay\}s`; element.style.opacity = 1; element.style.transform = 'translateY(0px)'; \}, 50); \}\
+                \});\
+            \}\
+            \
+            function populateSlideSelector() \{\
+                if (!slideSelectDropdown) return;\
+                slideSelectDropdown.innerHTML = ''; \
+                slides.forEach((slide, index) => \{\
+                    const option = document.createElement('option');\
+                    option.value = index;\
+                    let titleElement = slide.querySelector('.slide-title');\
+                    let slideTitleText = `\uc0\u31532  $\{index + 1\} \u38913 `;\
+                    if (titleElement) \{\
+                        let rawTitle = titleElement.textContent.trim().replace(/\\s+/g, ' ');\
+                        if (rawTitle.length > 20) \{ \
+                           rawTitle = rawTitle.substring(0, 18) + '...';\
+                        \}\
+                        if(rawTitle) slideTitleText += `: $\{rawTitle\}`;\
+                    \}\
+                    option.textContent = slideTitleText;\
+                    slideSelectDropdown.appendChild(option);\
+                \});\
+            \}\
+\
+            function showSlide(index) \{\
+                slides.forEach((slide, i) => \{\
+                    slide.style.display = 'none'; \
+                    if (slide.id === 'thank-you-slide' && i !== index) stopConfetti();\
+                \});\
+                const currentSlide = slides[index];\
+                if (currentSlide) \{\
+                    currentSlide.style.display = 'flex'; \
+                    requestAnimationFrame(() => \{ \
+                        animateElementsInSlide(currentSlide);\
+                        if (currentSlide.id === 'thank-you-slide') setTimeout(startConfetti, 100); \
+                    \});\
+                \}\
+                currentSlideIndex = index; \
+                if (slideSelectDropdown) \{ \
+                    slideSelectDropdown.value = currentSlideIndex;\
+                \}\
+                updateNavigationButtons(); \
+            \}\
+\
+            function updateNavigationButtons() \{\
+                prevButton.disabled = currentSlideIndex === 0;\
+\
+                const nextButtonIcon = nextButton.querySelector('i');\
+                let nextButtonTextNode = Array.from(nextButton.childNodes).find(node => node.nodeType === Node.TEXT_NODE && node.nodeValue.trim() !== '');\
+                if (!nextButtonTextNode) \{\
+                    const newTextNode = document.createTextNode(''); \
+                    if (nextButton.firstChild && nextButton.firstChild.nodeType === Node.ELEMENT_NODE) \{\
+                         nextButton.insertBefore(newTextNode, nextButton.firstChild); \
+                    \} else \{\
+                        nextButton.appendChild(newTextNode); \
+                    \}\
+                    nextButtonTextNode = newTextNode;\
+                \}\
+\
+                if (currentSlideIndex === slides.length - 1 && slides[currentSlideIndex].id === 'thank-you-slide') \{\
+                    nextButtonTextNode.nodeValue = '\uc0\u36820 \u22238 \u27161 \u38988 \u38913  ';\
+                    if (nextButtonIcon) nextButtonIcon.className = 'fas fa-home';\
+                    else \{ \
+                        const icon = document.createElement('i');\
+                        icon.className = 'fas fa-home';\
+                        nextButton.appendChild(icon);\
+                    \}\
+                    nextButton.disabled = false;\
+                    nextButton.classList.add('return-to-title'); \
+                    nextButton.classList.remove('default-next');\
+                \} else \{\
+                    nextButtonTextNode.nodeValue = 'Next ';\
+                    if (nextButtonIcon) nextButtonIcon.className = 'fas fa-arrow-right';\
+                     else \{\
+                        const icon = document.createElement('i');\
+                        icon.className = 'fas fa-arrow-right';\
+                        nextButton.appendChild(icon);\
+                    \}\
+                    nextButton.disabled = currentSlideIndex === slides.length - 1;\
+                    nextButton.classList.remove('return-to-title');\
+                    nextButton.classList.add('default-next'); \
+                \}\
+            \}\
+            \
+            if (!Array.from(nextButton.childNodes).find(node => node.nodeType === Node.TEXT_NODE && node.nodeValue.trim() !== '')) \{\
+                const initialTextNode = document.createTextNode('Next ');\
+                 if (nextButton.firstChild && nextButton.firstChild.nodeType === Node.ELEMENT_NODE) \{\
+                     nextButton.insertBefore(initialTextNode, nextButton.firstChild);\
+                 \} else \{\
+                    nextButton.appendChild(initialTextNode);\
+                 \}\
+            \}\
+            if (!nextButton.querySelector('i')) \{\
+                const icon = document.createElement('i');\
+                icon.className = 'fas fa-arrow-right';\
+                nextButton.appendChild(icon);\
+            \}\
+\
+            prevButton.addEventListener('click', () => \{ if (currentSlideIndex > 0) showSlide(currentSlideIndex - 1); \});\
+            \
+            nextButton.addEventListener('click', () => \{\
+                if (currentSlideIndex === slides.length - 1 && slides[currentSlideIndex].id === 'thank-you-slide') \{\
+                    showSlide(0); \
+                \} else if (currentSlideIndex < slides.length - 1) \{\
+                    showSlide(currentSlideIndex + 1);\
+                \}\
+            \});\
+\
+            if (slideSelectDropdown) \{\
+                slideSelectDropdown.addEventListener('change', (event) => \{\
+                    const selectedIndex = parseInt(event.target.value, 10);\
+                    if (!isNaN(selectedIndex)) \{\
+                        showSlide(selectedIndex);\
+                    \}\
+                \});\
+            \}\
+\
+            document.addEventListener('keydown', (event) => \{\
+                if (event.key === 'ArrowLeft' || event.key === 'PageUp') \{ if (!prevButton.disabled) prevButton.click(); \}\
+                else if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') \{ \
+                    if (currentSlideIndex === slides.length - 1 && slides[currentSlideIndex].id === 'thank-you-slide') \{\
+                        showSlide(0); \
+                    \} else if (!nextButton.disabled) \{\
+                        nextButton.click();\
+                    \}\
+                \}\
+            \});\
+            \
+            window.addEventListener('resize', () => \{\
+                if (slides[currentSlideIndex] && slides[currentSlideIndex].id === 'thank-you-slide' && confettiCanvas && confettiCanvas.parentElement) \{\
+                     const slideContent = confettiCanvas.parentElement;\
+                     confettiCanvas.width = slideContent.offsetWidth;\
+                     confettiCanvas.height = slideContent.offsetHeight;\
+                \}\
+            \});\
+            \
+            populateSlideSelector(); \
+\
+            if (slides.length > 0) showSlide(0); \
+            else \{ \
+                prevButton.style.display = 'none'; \
+                nextButton.style.display = 'none'; \
+                if (slideSelectDropdown) slideSelectDropdown.style.display = 'none';\
+            \}\
+        \});\
+    </script>\
+\
+</body>\
+</html>\
+}
